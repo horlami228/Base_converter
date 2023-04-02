@@ -5,6 +5,7 @@ A number base is the number of digits or combination of digits that a system use
 ---------------------
 ---------------------
 This program is a Base Conveter
+
 Operations include:
 ==================
 1. Base2 to Base10 (Binary to Decimal)
