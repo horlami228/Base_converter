@@ -1,10 +1,12 @@
-                            BASE CONVERTER
+BASE CONVERTER:
+===============
 A number base is the number of digits or combination of digits that a system uses to represent numbers.
 
 ---------------------
 ---------------------
 This program is a Base Conveter
 Operations include:
+==================
 1. Base2 to Base10 (Binary to Decimal)
 2. Base10 to Base16 (Decimal to Hexa-decmial)
 3. Base16 to Base2 (Hexa-decimal to Binary)
