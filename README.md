@@ -28,8 +28,8 @@ Use gcc *c -lm -o /file_name/
 
 Usage:
 ==========================
-(1) choose option to convert from
-(2) choose option to convert to
-(3) Enter valid a number
-(4) correct output will be displayed for the user
-(5) user can decide to try again to convert or just end the program there.
+(1) Choose option to convert from
+(2) Choose option to convert to
+(3) Enter a valid number
+(4) The correct output will be displayed for the user
+(5) User can decide to try again to convert or just end the program there.
