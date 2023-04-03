@@ -1,8 +1,8 @@
 #include "base.h"
 /**
-*hex_to_bin - This function converts hexadecimal to binary
-*@hexa: hexadecimal argument
-*Return: Return (0) on success. (-1) for otherwise
+ * hex_to_bin - This function converts hexadecimal to binary
+ * @hexa: hexadecimal argument
+ * Return: Return (0) on success. (-1) for otherwise
 */
 
 int hex_to_bin(const char *hexa)
