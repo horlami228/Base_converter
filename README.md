@@ -12,7 +12,7 @@ Operations include:
 2. Base10 to Base16 (Decimal to Hexa-decmial)
 3. Base16 to Base2 (Hexa-decimal to Binary)
 4. Base2 to Base16 (Binary to Hexa-decimal)
-5. Base10 to Base2 (Binary to Deciaml)
+5. Base10 to Base2 (Binary to Decimal)
 6. Base16 to Base10 (Hexa-decimal to Decimal)
 
 Binary Numbers - This a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one).
