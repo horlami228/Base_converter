@@ -2,7 +2,7 @@
 /**
  * bin_to_hex - convert binary to hexadecimal
  * @binary: binary string to use
- * Return: returns (0) on success. (1) otherwise
+ * Return: returns (0) on success. (-1) otherwise
 */
 int bin_to_hex(const char *binary)
 {
