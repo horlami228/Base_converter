@@ -23,7 +23,7 @@ Decimal Numbers - The decimal system consists of 10 single-digit numbers: 0, 1, 
 Hexadecimal Numbers - Hexadecimal is a numbering system with base 16. It can be used to represent large numbers with fewer digits. In this system there are 16 symbols or possible digit values from 0 to 9, followed by six alphabetic characters. A, B, C, D, E and F. Representing 10, 11, 12, 13, 14, 15 respectively.
 
 Usage:
-==========================
+===
 (1) choose option to convert from
 (2) choose option to convert to
 (3) Enter valid a number
