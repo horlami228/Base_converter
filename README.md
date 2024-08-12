@@ -1,35 +1,102 @@
-BASE CONVERTER:
-===============
+# 🎨 Base Converter
+
+## 🚀 Introduction
+
 A number base is the number of digits or combination of digits that a system uses to represent numbers.
 
----------------------
----------------------
-This program is a Base Conveter
+---
 
-Operations include:
-==================
-1. Base2 to Base10 (Binary to Decimal)
-2. Base10 to Base16 (Decimal to Hexa-decmial)
-3. Base16 to Base2 (Hexa-decimal to Binary)
-4. Base2 to Base16 (Binary to Hexa-decimal)
-5. Base10 to Base2 (Binary to Decimal)
-6. Base16 to Base10 (Hexa-decimal to Decimal)
+## Click to watch the demo usage video of the program
 
-Binary Numbers - This a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one).
-The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow.
+[![Experience the Demo](/Screenshot%20from%202024-08-12%2020-25-54.png)](https://drive.google.com/file/d/11TGBaWZGOnj6SsbfX1ROxfHs77vgbPKr/view?usp=sharing)
 
-Decimal Numbers - The decimal system consists of 10 single-digit numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9.
 
-Hexadecimal Numbers - Hexadecimal is a numbering system with base 16. It can be used to represent large numbers with fewer digits. In this system there are 16 symbols or possible digit values from 0 to 9, followed by six alphabetic characters. A, B, C, D, E and F. Representing 10, 11, 12, 13, 14, 15 respectively.
+## 🔧 Overview
 
-How to Compile
-==============
-Use gcc *c -lm -o /file_name/
+This **Base Converter** program allows you to convert numbers between different bases:
 
-Usage:
-==========================
-(1) choose option to convert from
-(2) choose option to convert to
-(3) Enter valid a number
-(4) correct output will be displayed for the user
-(5) user can decide to try again to convert or just end the program there.
+1. **Binary (Base-2)** to **Decimal (Base-10)**
+2. **Decimal (Base-10)** to **Hexadecimal (Base-16)**
+3. **Hexadecimal (Base-16)** to **Binary (Base-2)**
+4. **Binary (Base-2)** to **Hexadecimal (Base-16)**
+5. **Decimal (Base-10)** to **Binary (Base-2)**
+6. **Hexadecimal (Base-16)** to **Decimal (Base-10)**
+
+---
+
+## 🌟 Number Systems
+
+- **Binary Numbers (Base-2):** A number system using only two digits, `0` and `1`. Represents OFF and ON states in electronic systems.
+- **Decimal Numbers (Base-10):** The standard number system consisting of digits `0` through `9`.
+- **Hexadecimal Numbers (Base-16):** A base-16 system using symbols `0-9` and letters `A-F` to represent values from `0` to `15`. Useful for compactly representing large numbers.
+
+---
+
+## 🛠️ How to Compile and run
+
+To compile the program, use the following command:
+
+```bash
+    gcc *.c -lm -o base_converter
+
+```
+
+## move the program to /usr/local/bin/ to make it globally accessible.
+
+```bash
+    sudo mv base_converter /usr/local/bin/
+```
+
+## Add the path to your bashrc or zshrc and reload the shell configuration file.
+
+```bash
+    nano ~/.bashrc  # or nano ~/.zshrc if using zsh
+
+    export PATH="$HOME/my_programs:$PATH"
+
+    source ~/.bashrc  # or source ~/.zshrc if using zsh
+```
+## 🚀 How to Run
+
+```bash
+    base_converter
+```
+
+## 📝 Usage Instructions
+
+1. **Choose the format you are converting from:**
+   - Enter `1` for Binary
+   - Enter `2` for Decimal
+   - Enter `3` for Hexadecimal
+   - Enter `0` for Help
+
+2. **Select the format you want to convert to:**
+   - Enter `1` for Binary
+   - Enter `2` for Decimal
+   - Enter `3` for Hexadecimal
+
+3. **Enter the number to be converted:**
+   - For Binary to Decimal: Enter a binary number.
+   - For Decimal to Binary: Enter a decimal number.
+   - For Binary to Hexadecimal: Enter a binary number.
+   - For Decimal to Hexadecimal: Enter a decimal number.
+   - For Hexadecimal to Binary: Enter a hexadecimal number.
+   - For Hexadecimal to Decimal: Enter a hexadecimal number.
+
+4. **View the conversion result.**
+
+5. **Decide if you want to perform another conversion or exit the program:**
+   - Type `yes` to perform another conversion.
+   - Type `no` to exit the program.
+
+---
+
+## 🎨 Additional Features
+
+- **Clear Screen:** Automatically clears the terminal for a cleaner interface.
+- **Loading Indicator:** Provides visual feedback during conversions.
+- **Help Menu:** Easily accessible help instructions to guide users.
+
+
+## 🤝 Contributing
+Feel free to contribute to this project. Open an issue or submit a pull request on GitHub.

@@ -3,7 +3,7 @@
  * bin_to_dec - convert binary to decimal
  * @binary: binary string to use
  * Return: returns (0) on success. (-1) otherwise
-*/
+ */
 int bin_to_dec(const char *binary)
 {
     int decimal, len, base;
@@ -20,7 +20,7 @@ int bin_to_dec(const char *binary)
             return (-1);
         }
 
-        if ((binary[len]) == '1') 
+        if ((binary[len]) == '1')
         {
             decimal += base;
         }
@@ -29,7 +29,7 @@ int bin_to_dec(const char *binary)
         len--;
     }
 
-    printf("Loading-------------------------------------------\n");
-    printf("%d\n", decimal);
+    printf("The converted Decimal value is: %2d\n", decimal);
+
     return (0);
 }

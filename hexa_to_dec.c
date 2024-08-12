@@ -3,7 +3,7 @@
  * hex_to_dec - converts hexadecimal to decimal numbers
  * @hexa: hexadecimal input
  * Return: returns (0) on succes. (1) otherwise
-*/
+ */
 int hex_to_dec(const char *hexa)
 {
     int decimal, power, len;
@@ -12,12 +12,12 @@ int hex_to_dec(const char *hexa)
     char value;
     len = strlen(hexa) - 1; // length of string to use
 
-    while(len >= 0) // loop breaks when len is less than 0
+    while (len >= 0) // loop breaks when len is less than 0
     {
         if (isdigit(hexa[len])) // if its a digit
         {
-                value = hexa[len];
-                decimal += (value - '0') * pow(16, power); // substract the ascii value of 0(48)
+            value = hexa[len];
+            decimal += (value - '0') * pow(16, power); // substract the ascii value of 0(48)
         }
         if (isalpha(hexa[len]))
         {
@@ -28,8 +28,8 @@ int hex_to_dec(const char *hexa)
             }
             else
             {
-                //Handle error
-                dprintf(2, "Only valid Hexadecimal numbers\n"); 
+                // Handle error
+                dprintf(2, "Only valid Hexadecimal numbers\n");
                 return (-1);
             }
         }
@@ -37,8 +37,7 @@ int hex_to_dec(const char *hexa)
         power++;
     }
 
-    printf("Loading-------------------------------------------\n");
-    printf("%d\n", decimal);
+    printf("The converted Decimal value is: %2d\n", decimal);
 
     return (0);
 }
